@@ -24,14 +24,14 @@ console.log(averageB1);
 
 if (averageA1 > averageB1) {
     if (averageA1 >= 50) {
-        console.log("A wins second round");
+        console.log("A wins first round");
     }
     else
         console.log("out of the game");
 }
 else {
     if (averageB1 >= 50) {
-        console.log("B wins second round");
+        console.log("B wins first round");
     }
     else
         console.log("Out of the game")
@@ -47,14 +47,14 @@ console.log(averageB2);
 
 if (averageA2 > averageB2) {
     if (averageA2 >= 50) {
-        console.log("A wins third round");
+        console.log("A wins second round");
     }
     else
         console.log("out of the game");
 }
 else {
     if (averageB2 >= 50) {
-        console.log("B wins third round");
+        console.log("B wins second round");
     }
     else
         console.log("Out of the game")
@@ -70,14 +70,14 @@ console.log(averageA3);
 console.log(averageB3);
 if (averageA3 > averageB3) {
     if (averageA3 >= 50) {
-        console.log("A wins first round");
+        console.log("A wins third round");
     }
     else
         console.log("out of the game");
 }
 else {
     if (averageB3 >= 50) {
-        console.log("B wins first round");
+        console.log("B wins third round");
     }
     else
         console.log("Out of the game")
